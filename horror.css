@@ -289,6 +289,9 @@ body {
   .home:hover, .horror:hover {
       font-size: medium; 
   }
+      .dropbtn {
+      font-size: small;
+  }
 .dropbtn {
     background-color: transparent;
     color: rgb(106, 12, 2);
