@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    background-color: #C73659;
+    color: #A91D3A;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: "MedievalSharp", cursive;
+    height: 80px;
+    background-color: #151515;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.left:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 10px rgb(192, 38, 0);
+    text-decoration: dotted;
+    filter: brightness(90%);
+}
+
+.right:hover {
+    color: rgb(225, 0, 0);
+    text-shadow: 0 0 10px rgb(192, 38, 0);
+    text-decoration: dotted;
+    filter: brightness(100%);
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-block;
+    font-display: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #ffffff;
+    border: 0 solid black;
+    background-color: rgba(32, 1, 56, 0.095);
+}
+
+.title:hover {
+    color: #101306;
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 41px;
+    margin-right: 217px;
+    font-size: x-large;
+    color: black;
+}
+
+.story b {
+    color: brown;
+}
+
+.address {
+    color: color-mix(in hsl shorter hue, #F6EEC9 100%, black 2%);
+    display: grid;
+    justify-content: center;
+}
+
+.address a {
+    color: aquamarine;
+    font-display: none;
+}
+
+.warning-box {
+    background-color: #ffc107;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.warning-box p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .story {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 41px;
+        margin-right: 100px;
+        font-size: medium;
+    }
+
+    .pic {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .story {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pic {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}

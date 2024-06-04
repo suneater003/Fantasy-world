@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fantasy</title>
+    <link rel="shortcut icon" href="elements\pngwing.com (1).png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fan.css">
+
+    <script>
+        var links = [
+          'horror.html',
+          'romance.html',
+          'adventure.html',
+          'mystery.html',
+          'fairytale.html',
+        ]
+        function goToRandomLink() {
+          var randomIndex = Math.floor(Math.random() * links.length);
+          window.location.href = links[randomIndex];
+        }
+      </script>
+</head>
+<body>
+    <main>
+
+    <div class="twinkling"></div>
+
+   </div> 
+   <div class="title">
+    <header>
+        <nav class="nav">
+            <div class="left">FANTASY WORLD</div>
+            <div class="right">
+                <ul>
+                    <li class="ABOUT"><a href="about.html" target="_blank">ABOUT</a></li>
+                    <div class="dropdown">
+                    <button class="dropbtn">GENRE</button>
+                    <div class="dropdown-content">
+                    <a href="adventure.html">ADVENTURE</a>
+                    <a href="horror.html">HORROR</a>
+                    <a href="romance.html">ROMANCE</a>
+                    <a href="mystery.html">MYSTERY</a>
+                    <a href="fairytale.html">FAIRYTALE</a>
+                    </div>
+                </div>
+                    
+                </ul>
+        </nav>
+    </header>
+    <div class="tree"><img src="elements\pngwing.com (6).png" alt="tree" class="tree1"onclick="goToRandomLink()" style="cursor: pointer;"></div>
+<div class="statement">!!!click on WORLD TREE to go to any random genres!!!<br>This is the  perfect  place  to  discover a  variety of  story genres, including: <span id="element"></span><br></div>
+
+
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['ROMANCE', 'HORROR', 'MYSTERY', 'ADVENTURE','FAIRYTALE'],
+    typeSpeed: 90,
+    loop:true,
+  });
+</script><footer>
+<address class="address">
+    DEVLOPED BY: ADITYA RAJ<br>
+    CONTACT:aditya1raj003@gmail.com<br>
+    <div class="link1"><a href="https://github.com/suneater003" target="_blank"><img src="elements\github.png" alt="github" width="32px" ></a><a href="https://www.linkedin.com/in/aditya-raj-2686772b8/" target="_blank"><img src="elements\linkedin.png" alt="linkedin" width=32px></a><a href="https://www.instagram.com/aditya_raj645/" alt="instagram" target="_blank"><img src="elements\instagram.png" alt="instagram"></a></div>
+</address></footer>
+</body>
+</html>

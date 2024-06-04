@@ -1,0 +1,315 @@
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background: url(elements/wallpaperflare.com_wallpaper.png); 
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    margin-left: 40px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-decoration: dashed;
+    z-index: 1;
+    font-size: xx-large;
+    font-family: "MedievalSharp", cursive;
+    background-origin: padding-box;
+    color: rgb(106, 12, 2);
+    height: 97px;
+}
+.nav a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.home:hover{
+    color: rgb(255, 116, 2);
+    text-decoration: double;
+    text-shadow: 0 0 10px rgb(250, 97, 8);
+    font-family: "MedievalSharp", cursive;
+    
+}
+.container {
+    display: flex; /* Use flexbox */
+    justify-content:space-between;
+    align-items: end;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    filter: brightness(70%) opacity(70%);
+  }
+  .card h1{
+    color: rgb(8, 195, 64);
+    font-size: larger;
+    align-items: center;
+    top: 30%;
+    text-decoration: none;
+  }
+
+  .card2 {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    filter: brightness(70%) opacity(70%);
+  }
+  .card2 h1{
+    color: rgb(255, 247, 0);
+    display: block;
+    text-shadow: rgb( 8, 195, 64);
+    align-items: center;
+    font-size: larger;
+    top: 30%;
+
+  }
+  .card3 {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    filter: brightness(60%) opacity(60%);
+  }
+
+    .card:hover, .card2:hover, .card3:hover {
+        filter: brightness(100%) opacity(100%);
+  }
+  .card3 h1{
+    color: rgb(255, 0, 183);
+    display: block;
+    text-shadow: rgb( 8, 195, 64);
+    font-size: larger;
+    align-items: center;
+    top: 30%;
+  }
+  
+  .title {
+    color: rgb(8, 195, 64);
+    font-size: larger;
+    align-items: center;
+    top: 30%;
+    text-decoration: none;
+  }
+  .title2{
+    color: rgb(255, 247, 0);
+    display: block;
+    text-shadow: rgb( 8, 195, 64);
+    align-items: center;
+    font-size: larger;
+    top: 30%;
+  }
+  .title3{
+    color:  rgb(255, 0, 183);
+    display: block;
+    text-shadow: rgb(244, 36, 237);
+    align-items: center;
+    font-size: larger;
+    top: 30%;
+  }
+
+
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .a1 {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(21, 255, 0);
+  }
+  .a2{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(255, 247, 0);
+  }
+  .a3{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(244, 36, 237);
+
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+.btn
+{
+    position: absolute;
+    top: calc(100% + 10px);
+    background: transparent;
+    font-size: larger;
+    color: rgb(8, 195, 64);
+    text-shadow: rgb( 8, 195, 64);
+
+}
+.dropbtn {
+  background-color: transparent;
+  color: rgb(106, 12, 2);
+  padding: 16px;
+  font-size: xx-large;
+  border: none;
+  font-family: "MedievalSharp", cursive; 
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn:hover{
+  color:rgb(250, 97, 8);
+  text-shadow:0 0 10px rgb(250, 97, 8);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 20px;
+  font-size: x-large;
+}
+
+.dropdown-content a {
+  color: rgb(253, 251, 251);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  border-radius: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(250, 97, 8);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: transparent;
+}
+
+
+
+@media screen and (max-width: 980px) {
+ 
+    .card ,.card2 , .card3{
+        width: 150px;
+        height: 100px;
+    }
+    .btn
+{
+    position: absolute;
+    top: calc(100% + 10px);
+    background: transparent;
+    font-size: medium;
+    color: rgb(8, 195, 64);
+    text-shadow: rgb( 8, 195, 64);
+
+}
+.title {
+    color: rgb(8, 195, 64);
+    font-size: medium;
+    align-items: center;
+    top: 30%;
+    text-decoration: none;
+  }
+  .title2{
+    color: rgb(255, 247, 0);
+    display: block;
+    text-shadow: rgb( 8, 195, 64);
+    align-items: center;
+    font-size: medium;
+    top: 30%;
+  }
+  .title3{
+    color:  rgb(255, 0, 183);
+    display: block;
+    text-shadow: rgb(244, 36, 237);
+    align-items: center;
+    font-size: medium;
+    top: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  .nav {
+      flex-direction: row;
+      height: auto;
+      font-size: medium;
+      margin-top: 30px;
+  }
+
+  .nav a {
+      margin: 5px 0; 
+  }
+
+  .card, .card2, .card3 {
+      max-width: 250px; 
+      max-height: 350px; 
+      margin-top: 60px; 
+
+  .btn {
+      font-size: small; 
+  }
+
+  .home:hover, .horror:hover {
+      font-size: medium; 
+  }
+  .dropbtn {
+    font-size: small;
+}
+.dropbtn {
+  background-color: transparent;
+  color: rgb(106, 12, 2);
+  padding: 16px;
+  font-size: medium;
+  border: none;
+  font-family: "MedievalSharp", cursive; 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+}

@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+body{
+    background-color: rgb(113, 1, 72);
+    color: rgb(255, 0, 0);
+    font-family: "Poppins", sans-serif;
+}
+    
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+    font-family:  "MedievalSharp", cursive;
+    height: 80px;
+    background-color:rgba(150, 5, 126, 0.821); 
+
+}
+.nav a {
+    color: inherit; 
+    text-decoration: none; 
+}
+.left{
+    font-size: 1.5rem ;
+}
+.left :hover{
+    color: rgb(255, 0, 0); 
+    text-shadow: 0 0 10px rgb(217, 36, 20);
+    text-decoration: dotted;
+    filter:brightness(90%)
+}
+.right :hover{
+    color: rgb(255, 0, 0); 
+    text-shadow: 0 0 10px rgb(217, 35, 19);
+    text-decoration: dotted;
+    filter:brightness(90%)
+
+}
+.nav ul{
+    list-style: none;
+    display: inline-block;
+    font-display: none;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(255, 27, 232);
+    border: 0 solid black;
+    background-color: rgba(32, 1, 56, 0.095);
+}
+.title:hover{
+    color: rgb(239, 32, 32);
+    text-shadow: 0 0 30px rgb(199, 1, 1);
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.story{
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 41px;
+    margin-right: 217px;
+    font-size: x-large;
+    font-size: medium
+
+}
+.story b{
+    color: rgb(255, 0, 0);
+}
+.address
+{
+    color: color-mix(in hsl shorter hue, rgb(245, 161, 161) 50%, black 2%);
+    display:grid;
+    justify-content: center;
+}
+.address a{
+    color: rgb(195, 110, 244);
+    font-display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .story
+    {
+        display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 41px;
+    margin-right: 100px;
+    font-size: medium
+    }
+    .pic{
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 480px) {
+    .story {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 129px;
+    }
+    .pic {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
