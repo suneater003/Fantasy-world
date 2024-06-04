@@ -289,17 +289,14 @@ body {
   .home:hover, .horror:hover {
       font-size: medium; 
   }
-  .dropbtn {
-    font-size: small;
-}
-  .dropbtn {
+.dropbtn {
     background-color: transparent;
-    color: inherit;
+    color: rgb(106, 12, 2);
     padding: 16px;
-    font-size: medium;
+    font-size: large;
     border: none;
-    font-family: "MedievalSharp", cursive; 
-  }
+    font-family: "MedievalSharp", cursive;
+}
   .dropdown-content {
     display: none;
     position: absolute;
